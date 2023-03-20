@@ -61,7 +61,7 @@ model.add(Dense(len(train_y[0]), activation='softmax'))
 optimizer = legacy_optimizer.Adam(lr=0.001, decay=1e-6)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 
-model.fit(np.array(train_x), np.array(train_y), epochs=100, batch_size=32, verbose=1)
+model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=32, verbose=1)
 
 model.save('universidad_chatbot_model.h5', save_format='h5')
 
@@ -78,7 +78,7 @@ lemmatizer = WordNetLemmatizer()
 bot = telebot.TeleBot("5924283235:AAH2aWjFTHkR1cwGe6132h9U4Eo4EjXjnZM")
 
 # Función para preprocesar el texto del usuario
-def preprocess_text(text):
+def preprocess_text(text):  
     tokens = nltk.word_tokenize(text.lower())
     tokens = [lemmatizer.lemmatize(token) for token in tokens]
     return tokens
@@ -98,7 +98,7 @@ def predict_intent(text):
 # Función para obtener la respuesta adecuada
 def get_response(prediction):
     max_index = np.argmax(prediction)
-    if prediction[max_index] < 0.5:
+    if prediction[max_index] < 0.6:
         return "Lo siento, no entiendo lo que estás diciendo."
     intent = intents['intents'][max_index]
     if intent['tag'] == 'saludos':
