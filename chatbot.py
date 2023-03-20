@@ -54,14 +54,15 @@ train_x = list(training[:, 0])
 train_y = list(training[:, 1])
 
 model = Sequential()
-model.add(LSTM(128, input_shape=(len(train_x[0]), 1)))
+model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
 optimizer = legacy_optimizer.Adam(lr=0.001, decay=1e-6)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
-
-model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=32, verbose=1)
+model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=5, verbose=1)
 
 model.save('universidad_chatbot_model.h5', save_format='h5')
 
@@ -78,7 +79,7 @@ lemmatizer = WordNetLemmatizer()
 bot = telebot.TeleBot("5924283235:AAH2aWjFTHkR1cwGe6132h9U4Eo4EjXjnZM")
 
 # Función para preprocesar el texto del usuario
-def preprocess_text(text):  
+def preprocess_text(text):
     tokens = nltk.word_tokenize(text.lower())
     tokens = [lemmatizer.lemmatize(token) for token in tokens]
     return tokens
@@ -91,24 +92,22 @@ def predict_intent(text):
         for i, word in enumerate(words):
             if word == w:
                 bag_of_words[i] = 1
-    bag_of_words = np.array(bag_of_words)
-    result = model.predict(np.array([bag_of_words]))[0]
-    return result
+    return np.array(bag_of_words)
 
 # Función para obtener la respuesta adecuada
 def get_response(prediction):
-    max_index = np.argmax(prediction)
-    if prediction[max_index] < 0.6:
+    result = model.predict(np.array([prediction]))
+    max_index = np.argmax(result)
+    confiar = result[0][result.argmax()]
+    if confiar < 0.6:
         return "Lo siento, no entiendo lo que estás diciendo."
     intent = intents['intents'][max_index]
     if intent['tag'] == 'saludos':
         response = random.choice(intent['responses'])
-    elif intent['tag'] == 'informacion_general':
-        response =  random.choice(intent['responses'])
     elif intent['tag'] == 'programas_estudio':
+        response =  random.choice(intent['responses'])
+    elif intent['tag'] == 'informacion_general':
         response = random.choice(intent['responses'])
-    elif intent['tag'] == 'admission':
-        response = "Para información de admisión, por favor visite nuestro sitio web"
     else:
         response = "Lo siento, no puedo responder esa pregunta en este momento."
     return response
