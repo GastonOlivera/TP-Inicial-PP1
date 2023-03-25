@@ -42,6 +42,180 @@
         "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
         "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023."
       ]
+    },
+    {
+      "tag": "algebra lineal COM-01",
+      "patterns": [
+        "¿cuando curso algebra lineal COM-01?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRACTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRACTICO)"
+      ]
+    },
+    {
+      "tag": "administración de la producción y mantenimiento A0075 COM-01",
+      "patterns": [
+        "¿cuando curso administración de la producción y mantenimiento A0075 COM-01?"
+      ],
+      "responses": [
+        "Cursas Administración de la Producción y Mantenimiento los martes de 18:00 a 20:59 en el AULA 7026 (TEÓRICO/PRÁCTICO) con los docentes Benedini Fiorella Denise y Maciel Luis Ignacio."
+      ]
+    },
+    {
+      "tag": "administración pública provincial y local A0021 COM-01",
+      "patterns": [
+        "¿cuando curso administración pública provincial y local A0021 COM-01?"
+      ],
+      "responses": [
+        "Cursas Administración Pública Provincial y Local los miércoles de 18:00 a 22:00 en OFICINA 6103 - 6105 (TEÓRICO/PRÁCTICO) con los docentes Ameghino Nadia y Foglia Carolina."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-01",
+      "patterns": [
+        "¿cuando curso adolescencia y educación secundaria A0574 COM-01?"
+      ],
+      "responses": [
+        "Cursas Adolescencia y Educación Secundaria los miércoles de 09:00 a 11:59 en el AULA 7253 (TEÓRICO/PRÁCTICO) con la docente Ferreyra Ana Carolina."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-02",
+      "patterns": [
+        "¿cuando curso adolescencia y educación secundaria A0574 COM-02?"
+      ],
+      "responses": [
+        "Cursas Adolescencia y Educación Secundaria los jueves de 13:00 a 15:59 en el AULA 7030 (TEÓRICO/PRÁCTICO) con la docente Ferreyra Ana Carolina."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-03",
+      "patterns": [
+        "¿cuando curso adolescencia y educación secundaria A0574 COM-03?"
+      ],
+      "responses": [
+        "Cursas Adolescencia y Educación Secundaria los martes de 13:00 a 15:59 en el AULA 7280 (TEÓRICO/PRÁCTICO) con la docente Toscano Ana Gracia."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-04",
+      "patterns": [
+        "¿Cuándo es la clase de adolescencia y educación secundaria A0574 COM-04?",
+        "Horario de adolescencia y educación secundaria A0574 COM-04",
+        "¿Cuándo tengo adolescencia y educación secundaria A0574 COM-04?"
+      ],
+      "responses": [
+        "La clase de Adolescencia y Educación Secundaria A0574 COM-04 se lleva a cabo los lunes y miércoles. Los lunes de 15:00 a 16:59 en el AULA 4012 (TEÓRICO) y de 17:00 a 18:59 en el AULA 5124 (PRACTICO). Los miércoles de 15:00 a 16:59 en el AULA 4012 (TEÓRICO) y de 17:00 a 18:59 en el AULA 5029 (PRACTICO)"
+      ]
+    },
+    {
+      "tag": "algebra I A0023 COM-01",
+      "patterns": [
+        "¿Cuándo es la clase de algebra I A0023 COM-01?",
+        "Horario de algebra I A0023 COM-01",
+        "¿Cuándo tengo algebra I A0023 COM-01?"
+      ],
+      "responses": [
+        "La clase de Algebra I A0023 COM-01 se lleva a cabo los lunes de 08:00 a 11:59 en el AULA 7020 (TEÓRICO/PRÁCTICO). Profesora: Fragalá Marina."
+      ]
+    },
+    {
+      "tag": "algebra I A0023 COM-02",
+      "patterns": [
+        "¿Cuándo es la clase de algebra I A0023 COM-02?",
+        "Horario de algebra I A0023 COM-02",
+        "¿Cuándo tengo algebra I A0023 COM-02?"
+      ],
+      "responses": [
+        "La clase de Algebra I A0023 COM-02 se lleva a cabo los lunes de 12:00 a 15:59 en el AULA 7020 (TEÓRICO/PRÁCTICO). Profesora: Fragalá Marina."
+      ]
+    },
+    {
+      "tag": "algebra II A0024 COM-01",
+      "patterns": [
+        "¿Cuándo es la clase de algebra II A0024 COM-01?",
+        "Horario de algebra II A0024 COM-01",
+        "¿Cuándo tengo algebra II A0024 COM-01?"
+      ],
+      "responses": [
+        "La clase de Algebra II A0024 COM-01 se lleva a cabo los martes y jueves de 13:00 a 16:59 en el LABO COM 7112 (TEÓRICO/PRÁCTICO). Profesores: Bidart Gauna Gaston Alejandro y Cafure Antonio Artemio."
+      ]
+    },
+    {
+      "tag": "algebra lineal A0025 COM-01",
+      "patterns": [
+        "¿Cuándo es la clase de algebra lineal A0025 COM-01?",
+        "Horario de algebra lineal A0025 COM-01",
+        "¿Cuándo tengo algebra lineal A0025 COM-01?"
+      ],
+      "responses": [
+        "La clase de Algebra Lineal A0025 COM-01 se lleva a cabo los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO). Profesoras: Gonzalez Lucia Maria y Marcantognini Palacios Stefania Alma María."
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-01",
+      "patterns": [
+        "¿cuando curso algebra lineal COM-01?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-02",
+      "patterns": [
+        "¿cuando curso algebra lineal COM-02?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7184 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7184 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-03",
+      "patterns": [
+        "¿cuando curso algebra lineal COM-03?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO). Jueves de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-04",
+      "patterns": [
+        "¿Cuándo curso algebra lineal COM-04?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\nJueves de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-05",
+      "patterns": [
+        "¿Cuándo curso algebra lineal COM-05?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-06",
+      "patterns": [
+        "¿Cuándo curso algebra lineal COM-06?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-07",
+      "patterns": [
+        "¿Cuándo curso algebra lineal COM-07?"
+      ],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)\nJueves de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)"
+      ]
     }
+    
+    
   ]
 }
