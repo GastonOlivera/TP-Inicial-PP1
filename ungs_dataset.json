@@ -1,47 +1,109 @@
 {
+  
   "intents": [
+    {
+      "tag": "examenes_finales",
+      "patterns": [
+        "¿Cuándo es el turno de exámenes finales fechas de febrero?",
+        "examenes febrero",
+        "¿Cuándo es el turno de exámenes finales fechas de mayo?",
+        "examenes mayo",
+        "¿Cuándo es el turno de exámenes finales fechas de julio?",
+        "examenes julio",
+        "¿Cuándo es el turno de exámenes finales fechas de octubre?",
+        "examenes octubre",
+        "¿Cuándo es el turno de exámenes fechas de diciembre?",
+        "examenes diciembre"
+      ],
+      "responses": [
+        "Turno febrero: Modalidad Regular y libre. Inscripción desde 30/01/2023 hasta 01/02/2023. Primer llamado desde 06/02/2023 hasta 11/02/2023. Segundo llamado desde 13/02/2023 hasta 18/02/2023.",
+        "Turno febrero: Modalidad Regular y libre. Inscripción desde 30/01/2023 hasta 01/02/2023. Primer llamado desde 06/02/2023 hasta 11/02/2023. Segundo llamado desde 13/02/2023 hasta 18/02/2023.",
+        "Turno mayo: Modalidad Regular. Inscripción desde 02/05/2023 hasta 07/05/2023. Único llamado desde 15/05/2023 hasta 20/05/2023.",
+        "Turno mayo: Modalidad Regular. Inscripción desde 02/05/2023 hasta 07/05/2023. Único llamado desde 15/05/2023 hasta 20/05/2023.",
+        "Turno julio: Modalidad Regular y libre. Inscripción desde 03/07/2023 hasta 05/07/2023. Primer llamado desde 10/07/2023 hasta 15/07/2023. Segundo llamado desde 17/07/2023 hasta 22/07/2023.",
+        "Turno julio: Modalidad Regular y libre. Inscripción desde 03/07/2023 hasta 05/07/2023. Primer llamado desde 10/07/2023 hasta 15/07/2023. Segundo llamado desde 17/07/2023 hasta 22/07/2023.",
+        "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
+        "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
+        "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023.",
+        "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023."
+      ]
+    },
+    {
+      "tag": "informacion_general",
+      "patterns": [
+          "¿Cual es la direccion de la universidad?",
+          "¿Que actividades extracurriculares ofrece la universidad?",
+          "¿Que Licenciaturas ofrece la universidad?",
+          "licenciaturas",
+          "¿Que ingenierias ofece la universidad?", 
+          "ingenierias",
+          "¿Que profesorados ofrece la universidad?",
+          "profesorados"
+         
+      ],
+      "responses": [
+          "La dirección de la universidad es Juan María Gutiérrez 1150",
+          "La universidad ofrece una amplia variedad de actividades extracurriculares, incluyendo deportes, clubes estudiantiles, cursos y mas",
+          "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
+          "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
+          "Las Ingenierias son: Automatizacion , Quimica , Industrial",
+          "Las Ingenierias son: Automatizacion , Quimica , Industrial",
+          "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica",
+          "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica"
+      ]
+    },
     {
       "tag": "inscripciones_primer_semestre",
       "patterns": [
-        "Cuando puedo inscribirme a las materias primer semestre?",
+        "¿Cuando puedo inscribirme a las materias primer semestre?",
+        "inscripcion primer semestre",
         "¿Cuándo comienza la cursada del primer semestre?",
-        "¿Cuándo termina la cursada del primer semestre?"
+        "comienza primer semestre",
+        "¿Cuándo termina la cursada del primer semestre?",
+        "termina primer semestre"
       ],
       "responses": [
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023",
-        "06/03/2023",
-        "24/06/2023"
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023"
       ]
     },
     {
       "tag": "inscripciones_segundo_semestre",
       "patterns": [
-        "Cuando puedo inscribirme a las materias segundo semestre?",
+        "¿Cuando puedo inscribirme a las materias segundo semestre?",
+        "inscripcion segundo semestre",
         "¿Cuándo comienza la cursada del segundo semestre?",
-        "¿Cuándo termina la cursada del segundo semestre?"
+        "comienza segundo semestre",
+        "¿Cuándo termina la cursada del segundo semestre?",
+        "termina segundo semestre"
       ],
       "responses": [
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023",
-        "07/08/2023",
-        "25/11/2023"
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023"
       ]
     },
     {
-      "tag": "examenes_finales",
+      "tag": "saludos",
       "patterns": [
-        "¿Cuándo es el turno de exámenes de febrero?",
-        "¿Cuándo es el turno de exámenes de mayo?",
-        "¿Cuándo es el turno de exámenes de julio?",
-        "¿Cuándo es el turno de exámenes de octubre?",
-        "¿Cuándo es el turno de exámenes de diciembre?"
+          "hola",
+          "buenos dias",
+          "buenas tardes",
+          "buenas noches"
       ],
       "responses": [
-        "Turno febrero: Modalidad Regular y libre. Inscripción desde 30/01/2023 hasta 01/02/2023. Primer llamado desde 06/02/2023 hasta 11/02/2023. Segundo llamado desde 13/02/2023 hasta 18/02/2023.",
-        "Turno mayo: Modalidad Regular. Inscripción desde 02/05/2023 hasta 07/05/2023. Único llamado desde 15/05/2023 hasta 20/05/2023.",
-        "Turno julio: Modalidad Regular y libre. Inscripción desde 03/07/2023 hasta 05/07/2023. Primer llamado desde 10/07/2023 hasta 15/07/2023. Segundo llamado desde 17/07/2023 hasta 22/07/2023.",
-        "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
-        "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023."
+          "¡Hola! ¿En qué puedo ayudarte?",
+          "¡Buenos dias! ¿En qué puedo ayudarte?",
+          "¡Buenas tardes! ¿En qué puedo ayudarte?",
+          "¡Buenas noches! ¿En qué puedo ayudarte?"
       ]
-    }
+  }
   ]
 }
