@@ -1,8 +1,5 @@
-import telebot
-import json
-import random
+import telebot , json , random , nltk
 import numpy as np
-import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from tensorflow.keras.models import Sequential
@@ -10,7 +7,6 @@ from tensorflow.keras.layers import Dense, Dropout
 from keras.layers import LSTM
 from tensorflow.keras.optimizers import legacy as legacy_optimizer
 from nltk.tokenize import word_tokenize
-
 from fuzzywuzzy import process , fuzz
 
 
@@ -66,7 +62,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-optimizer = legacy_optimizer.Adam(lr=0.001, decay=1e-6)
+optimizer = legacy_optimizer.Adam(lr=0.0001, decay=1e-4)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=5, verbose=1)
 
@@ -118,6 +114,8 @@ def get_response(prediction,text_predict):
     elif intent['tag'] == 'inscripciones_primer_semestre':
         response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
     elif intent['tag'] == 'inscripciones_segundo_semestre':
+       response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
+    elif intent['tag'] == 'colectivo_horarios':
        response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
     else:
         response = "Lo siento, no puedo responder esa pregunta en este momento."
