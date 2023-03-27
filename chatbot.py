@@ -106,8 +106,8 @@ def get_response(prediction,text_predict):
     tag = intents['intents'][max_index]
     response = "aca seteo algo"
     for intent in intents['intents']:
-        tagActual= " ".join(intent['tag'])
-        if tagActual == tag :
+        tagActual= "".join(intent['tag'])
+        if tagActual == tag['tag'] :
             response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
     return response
 
