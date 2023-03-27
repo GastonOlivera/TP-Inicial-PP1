@@ -130,6 +130,413 @@
           "¡Buenas tardes! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
           "¡Buenas noches! ,  Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?"
       ]
+
+    },
+    {
+      "tag": "algebra lineal COM-01",
+      "patterns": ["¿cuando curso algebra lineal COM-01?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRACTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRACTICO)"
+      ]
+    },
+    {
+      "tag": "administración de la producción y mantenimiento A0075 COM-01",
+      "patterns": [
+        "¿cuando curso administración de la producción y mantenimiento A0075 COM-01?"
+      ],
+      "responses": [
+        "Cursas Administración de la Producción y Mantenimiento los martes de 18:00 a 20:59 en el AULA 7026 (TEÓRICO/PRÁCTICO) con los docentes Benedini Fiorella Denise y Maciel Luis Ignacio."
+      ]
+    },
+    {
+      "tag": "administración pública provincial y local A0021 COM-01",
+      "patterns": [
+        "¿cuando curso administración pública provincial y local A0021 COM-01?"
+      ],
+      "responses": [
+        "Cursas Administración Pública Provincial y Local los miércoles de 18:00 a 22:00 en OFICINA 6103 - 6105 (TEÓRICO/PRÁCTICO) con los docentes Ameghino Nadia y Foglia Carolina."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-01",
+      "patterns": [
+        "¿cuando curso adolescencia y educación secundaria A0574 COM-01?"
+      ],
+      "responses": [
+        "Cursas Adolescencia y Educación Secundaria los miércoles de 09:00 a 11:59 en el AULA 7253 (TEÓRICO/PRÁCTICO) con la docente Ferreyra Ana Carolina."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-02",
+      "patterns": [
+        "¿cuando curso adolescencia y educación secundaria A0574 COM-02?"
+      ],
+      "responses": [
+        "Cursas Adolescencia y Educación Secundaria los jueves de 13:00 a 15:59 en el AULA 7030 (TEÓRICO/PRÁCTICO) con la docente Ferreyra Ana Carolina."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-03",
+      "patterns": [
+        "¿cuando curso adolescencia y educación secundaria A0574 COM-03?"
+      ],
+      "responses": [
+        "Cursas Adolescencia y Educación Secundaria los martes de 13:00 a 15:59 en el AULA 7280 (TEÓRICO/PRÁCTICO) con la docente Toscano Ana Gracia."
+      ]
+    },
+    {
+      "tag": "adolescencia y educación secundaria A0574 COM-04",
+      "patterns": [
+        "¿Cuándo es la clase de adolescencia y educación secundaria A0574 COM-04?",
+        "Horario de adolescencia y educación secundaria A0574 COM-04",
+        "¿Cuándo tengo adolescencia y educación secundaria A0574 COM-04?"
+      ],
+      "responses": [
+        "La clase de Adolescencia y Educación Secundaria A0574 COM-04 se lleva a cabo los lunes y miércoles. Los lunes de 15:00 a 16:59 en el AULA 4012 (TEÓRICO) y de 17:00 a 18:59 en el AULA 5124 (PRACTICO). Los miércoles de 15:00 a 16:59 en el AULA 4012 (TEÓRICO) y de 17:00 a 18:59 en el AULA 5029 (PRACTICO)"
+      ]
+    },
+    {
+      "tag": "algebra I A0023 COM-01",
+      "patterns": [
+        "¿Cuándo es la clase de algebra I A0023 COM-01?",
+        "Horario de algebra I A0023 COM-01",
+        "¿Cuándo tengo algebra I A0023 COM-01?"
+      ],
+      "responses": [
+        "La clase de Algebra I A0023 COM-01 se lleva a cabo los lunes de 08:00 a 11:59 en el AULA 7020 (TEÓRICO/PRÁCTICO). Profesora: Fragalá Marina."
+      ]
+    },
+    {
+      "tag": "algebra I A0023 COM-02",
+      "patterns": [
+        "¿Cuándo es la clase de algebra I A0023 COM-02?",
+        "Horario de algebra I A0023 COM-02",
+        "¿Cuándo tengo algebra I A0023 COM-02?"
+      ],
+      "responses": [
+        "La clase de Algebra I A0023 COM-02 se lleva a cabo los lunes de 12:00 a 15:59 en el AULA 7020 (TEÓRICO/PRÁCTICO). Profesora: Fragalá Marina."
+      ]
+    },
+    {
+      "tag": "algebra II A0024 COM-01",
+      "patterns": [
+        "¿Cuándo es la clase de algebra II A0024 COM-01?",
+        "Horario de algebra II A0024 COM-01",
+        "¿Cuándo tengo algebra II A0024 COM-01?"
+      ],
+      "responses": [
+        "La clase de Algebra II A0024 COM-01 se lleva a cabo los martes y jueves de 13:00 a 16:59 en el LABO COM 7112 (TEÓRICO/PRÁCTICO). Profesores: Bidart Gauna Gaston Alejandro y Cafure Antonio Artemio."
+      ]
+    },
+    {
+      "tag": "algebra lineal A0025 COM-01",
+      "patterns": [
+        "¿Cuándo es la clase de algebra lineal A0025 COM-01?",
+        "Horario de algebra lineal A0025 COM-01",
+        "¿Cuándo tengo algebra lineal A0025 COM-01?"
+      ],
+      "responses": [
+        "La clase de Algebra Lineal A0025 COM-01 se lleva a cabo los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO). Profesoras: Gonzalez Lucia Maria y Marcantognini Palacios Stefania Alma María."
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-01",
+      "patterns": ["¿cuando curso algebra lineal COM-01?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-02",
+      "patterns": ["¿cuando curso algebra lineal COM-02?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7184 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7184 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-03",
+      "patterns": ["¿cuando curso algebra lineal COM-03?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO). Jueves de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-04",
+      "patterns": ["¿Cuándo curso algebra lineal COM-04?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\nJueves de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-05",
+      "patterns": ["¿Cuándo curso algebra lineal COM-05?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-06",
+      "patterns": ["¿Cuándo curso algebra lineal COM-06?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "algebra lineal COM-07",
+      "patterns": ["¿Cuándo curso algebra lineal COM-07?"],
+      "responses": [
+        "Cursas algebra lineal los martes y jueves.\nMartes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)\nJueves de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "analisis_matematico_com_01",
+      "patterns": ["¿Cuándo curso análisis matemático COM-01?"],
+      "responses": [
+        "Cursas análisis matemático los lunes y jueves.\nLunes de 18:00 a 22:00 en el LABO COM 7010 (TEÓRICO/PRÁCTICO)\nJueves de 18:00 a 22:00 en el LABO COM 7112 (TEÓRICO/PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "analisis_numerico_com_01",
+      "patterns": ["¿Cuándo curso análisis numérico COM-01?"],
+      "responses": [
+        "Cursas análisis numérico los lunes y jueves.\nLunes de 18:00 a 22:00 en el LABO COM 7116 (INFORMÁTICA)\nJueves de 18:00 a 22:00 en el LABO COM 7114 (INFORMÁTICA)"
+      ]
+    },
+    {
+      "tag": "analisis_territorial_ii_com_01",
+      "patterns": ["¿Cuándo curso análisis territorial II COM-01?"],
+      "responses": [
+        "Cursas análisis territorial II los jueves.\nJueves de 18:00 a 22:00 en el LABO COM 7210 (INFORMÁTICA)"
+      ]
+    },
+    {
+      "tag": "antropologia_filosofica_a0176_com_01",
+      "patterns": ["¿Cuándo curso antropología filosófica A0176 COM-01?"],
+      "responses": [
+        "Cursas antropología filosófica los lunes y miércoles.\nLunes de 18:00 a 22:00 en el LAB ING 3011 (MODULO III D - LAB ING)\nMiércoles de 18:00 a 19:59 en la SALA LECT 2º C (BIBLIOTECA)"
+      ]
+    },
+    {
+      "tag": "antropologia_filosofica_a0176_com_01",
+      "patterns": ["¿Cuándo curso antropología filosófica A0176 COM-01?"],
+      "responses": [
+        "Cursas antropología filosófica los lunes y miércoles.\nLunes de 18:00 a 22:00 en el LAB ING 3011 (MODULO III D - LAB ING)\nMiércoles de 18:00 a 19:59 en la SALA LECT 2º C (BIBLIOTECA)"
+      ]
+    },
+    {
+      "tag": "aprendizaje_escolar_a0575_com_01",
+      "patterns": ["¿Cuándo curso aprendizaje escolar A0575 COM-01?"]
+    },
+    {
+      "tag": "antropologia_filosofica_a0176_com_01",
+      "patterns": ["¿Cuándo curso antropología filosófica A0176 COM-01?"],
+      "responses": [
+        "Cursas antropología filosófica los lunes y miércoles.\nLunes de 18:00 a 22:00 en el LAB ING 3011 (MODULO III D - LAB ING)\nMiércoles de 18:00 a 19:59 en la SALA LECT 2º C (BIBLIOTECA)"
+      ]
+    },
+    {
+      "tag": "aprendizaje_escolar_a0575_com_01",
+      "patterns": ["¿Cuándo curso aprendizaje escolar A0575 COM-01?"],
+      "responses": [
+        "Cursas aprendizaje escolar los martes de 09:00 a 11:59 en el AULA 3009 (MODULO III)."
+      ]
+    },
+    {
+      "tag": "artes_audiovisuales_i_a0030_com_01",
+      "patterns": ["¿Cuándo curso artes audiovisuales I A0030 COM-01?"],
+      "responses": [
+        "Cursas artes audiovisuales I los viernes de 18:00 a 22:00 en la SALA 02 (MODULO I)."
+      ]
+    },
+    {
+      "tag": "artes_escenicas_ii_a0033_com_01",
+      "patterns": ["¿Cuándo curso artes escénicas II A0033 COM-01?"],
+      "responses": [
+        "Cursas artes escénicas II los martes de 18:00 a 22:00 en la SALA 'SALA' 5101 (MODULO V)."
+      ]
+    },
+    {
+      "tag": "artes_audiovisuales_i_a0030_com_01",
+      "patterns": ["¿Cuándo curso artes audiovisuales I A0030 COM-01?"],
+      "responses": [
+        "Cursas artes audiovisuales I los viernes de 18:00 a 22:00 en la SALA 02 (MODULO I)."
+      ]
+    },
+    {
+      "tag": "artes_escenicas_ii_a0033_com_01",
+      "patterns": ["¿Cuándo curso artes escénicas II A0033 COM-01?"],
+      "responses": [
+        "Cursas artes escénicas II los martes de 18:00 a 22:00 en la SALA 'SALA' 5101 (MODULO V)."
+      ]
+    },
+    {
+      "tag": "artes_visuales_i_a0034_com_01",
+      "patterns": ["¿Cuándo curso artes visuales I A0034 COM-01?"],
+      "responses": [
+        "Cursas artes visuales I los lunes de 18:00 a 22:00 en la SALA 01 (MODULO I)."
+      ]
+    },
+    {
+      "tag": "automatizacion_i_a0036_com_01",
+      "patterns": ["¿Cuándo curso automatización I A0036 COM-01?"],
+      "responses": [
+        "Cursas automatización I los miércoles de 18:00 a 22:00 en el LAB AUTO 3 (MODULO III D - LAB ING)."
+      ]
+    },
+    {
+      "tag": "automatizacion_industrial_i_a0437_com_01",
+      "patterns": ["¿Cuándo curso automatización industrial I A0437 COM-01?"],
+      "responses": [
+        "Cursas automatización industrial I los martes de 18:00 a 22:00 en el LAB GRAL 5 (MODULO III D - LAB ING)."
+      ]
+    },
+    {
+      "tag": "bases_de_datos_i_a0524_com_01",
+      "patterns": ["¿Cuándo curso bases de datos I A0524 COM-01?"],
+      "responses": [
+        "Cursas bases de datos I los jueves de 18:00 a 22:00 en el LABO COM 7128 (MODULO VII) y los lunes de 18:00 a 22:00 en el LABO COM 7114 (MODULO VII). Ambas clases son compartidas con A0439 COM-01."
+      ]
+    },
+    {
+      "tag": "bases_de_datos_ii_a0532_com_01",
+      "patterns": ["¿Cuándo curso bases de datos II A0532 COM-01?"],
+      "responses": [
+        "Cursas bases de datos II los jueves de 18:00 a 22:00 en el LABO COM 7118 (MODULO VII) y los lunes de 18:00 a 22:00 en el LABO COM 3020 (MODULO III)."
+      ]
+    },
+    {
+      "tag": "calculo_en_varias_variables_a0038_com_01",
+      "patterns": ["¿Cuándo curso cálculo en varias variables A0038 COM-01?"],
+      "responses": [
+        "Cursas cálculo en varias variables los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7280 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7030 (PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "calculo_i_a0039_com_01",
+      "patterns": ["¿Cuándo curso cálculo I A0039 COM-01?"],
+      "responses": [
+        "Cursas cálculo I los lunes y miércoles. Lunes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO). Miércoles de 08:00 a 09:59 en el AULA 3024 (TEORICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO)"
+      ]
+    },
+    {
+      "tag": "calculo_ii_com_01",
+      "patterns": ["¿Cuándo curso cálculo II COM-01?"],
+      "responses": [
+        "Cursas cálculo II los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 7018 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7018 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 7182 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7182 (PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "calculo_para_computacion_com_01",
+      "patterns": ["¿Cuándo curso cálculo para computación COM-01?"],
+      "responses": [
+        "Cursas cálculo para computación los miércoles y viernes. Miércoles de 18:00 a 22:00 en el AULA 7141 (TEÓRICO/PRÁCTICO). Viernes de 18:00 a 22:00 en el AULA 7020 (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "cartografia tematica com-01",
+      "patterns": ["¿cuándo curso cartografia tematica com-01?"],
+      "responses": [
+        "Cursas Cartografía Temática los martes y jueves. Martes de 18:00 a 22:00 y jueves de 18:00 a 22:00 en LABO SIG 602 del Módulo VI."
+      ]
+    },
+    {
+      "tag": "cartografia sensores com-01",
+      "patterns": ["¿cuándo curso cartografia sensores com-01?"],
+      "responses": [
+        "Cursas Cartografía, Sensores Remotos y Sistemas de Información Geográfica los miércoles y viernes. Miércoles de 18:00 a 19:59 y viernes de 18:00 a 22:00 en LABO COM 7116 y LABO COM 7114 del Módulo VII."
+      ]
+    },
+    {
+      "tag": "ciencia de los materiales A0042 COM-01",
+      "patterns": ["¿cuándo curso ciencia de los materiales A0042 COM-01?"],
+      "responses": [
+        "Cursas ciencia de los materiales los sábados de 09:00 a 14:59 en el AULA 3027 (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "ciencia de los materiales A0042 COM-02",
+      "patterns": ["¿cuándo curso ciencia de los materiales A0042 COM-02?"],
+      "responses": [
+        "Cursas ciencia de los materiales los sábados de 09:00 a 14:59 en el AULA 3027 (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "circuitos eléctricos A0357 COM-01",
+      "patterns": ["¿cuándo curso circuitos eléctricos A0357 COM-01?"],
+      "responses": [
+        "Cursas circuitos eléctricos los lunes de 18:00 a 22:00 en el AULA 7283 / 7285 (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "CIUDAD Y AMBIENTE A0043 COM-01",
+      "patterns": ["¿Cuándo curso CIUDAD Y AMBIENTE A0043 COM-01?"],
+      "responses": [
+        "Cursas CIUDAD Y AMBIENTE los Lunes de 18:00 a 22:00 en la SALA REUNION (ROCA) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "COMUNICACIÓN INSTITUCIONAL A0044 COM-01",
+      "patterns": ["¿Cuándo curso COMUNICACIÓN INSTITUCIONAL A0044 COM-01?"],
+      "responses": [
+        "Cursas COMUNICACIÓN INSTITUCIONAL los Martes de 18:00 a 19:59 y de 20:00 a 22:00 en el AULA 7012 (MODULO VII) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "COMUNICACIÓN MEDIÁTICA A0046 COM-01",
+      "patterns": ["¿Cuándo curso COMUNICACIÓN MEDIÁTICA A0046 COM-01?"],
+      "responses": [
+        "Cursas COMUNICACIÓN MEDIÁTICA los Lunes de 18:00 a 22:00 en el AULA 3019 (MODULO III) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "CONTROL AUTOMÁTICO A0048 COM-01",
+      "patterns": ["¿Cuándo curso CONTROL AUTOMÁTICO A0048 COM-01?"],
+      "responses": [
+        "Cursas CONTROL AUTOMÁTICO los Martes de 18:00 a 22:00 en el AULA 7023 (MODULO VII) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "CONTROL DE MÁQUINAS ELÉCTRICAS A0410 COM-01",
+      "patterns": [
+        "¿Cuándo curso CONTROL DE MÁQUINAS ELÉCTRICAS A0410 COM-01?"
+      ],
+      "responses": [
+        "Cursas CONTROL DE MÁQUINAS ELÉCTRICAS los Martes de 18:00 a 22:00 en el LAB AUTO 3 (MODULO III D (LAB ING)) (TEÓRICO/PRÁCTICO) y los Miércoles de 20:00 a 22:00 en el LAB AUTO 4 (MODULO III D (LAB ING)) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "COSTOS INDUSTRIALES A0049 COM-01",
+      "patterns": ["¿Cuándo curso COSTOS INDUSTRIALES A0049 COM-01?"],
+      "responses": [
+        "Cursas COSTOS INDUSTRIALES los Jueves de 18:00 a 19:59 en el AULA 7253 (MODULO VII) (TEÓRICO/PRÁCTICO) y los Lunes de 18:00 a 22:00 en el AULA 7255 'RODOLFO WALSH' (MODULO VII) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "CREACIÓN Y DESARROLLO DE EMPRESAS A0293 COM-01",
+      "patterns": [
+        "¿Cuándo curso CREACIÓN Y DESARROLLO DE EMPRESAS A0293 COM-01?"
+      ],
+      "responses": [
+        "Cursas CREACIÓN Y DESARROLLO DE EMPRESAS los Lunes de 18:00 a 20:59 en la SALA LECT 2º A (BIBLIOTECA) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "CUESTIONES AMBIENTALES CONTEMPORÁNEAS A0426 COM-01",
+      "patterns": [
+        "¿Cuándo curso CUESTIONES AMBIENTALES CONTEMPORÁNEAS A0426 COM-01?"
+      ],
+      "responses": [
+        "Cursas CUESTIONES AMBIENTALES CONTEMPORÁNEAS los Martes de 18:00 a 22:00 en el AULA 7015 (MODULO VII) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "DERECHO ADMINISTRATIVO A0053 COM-01",
+      "patterns": ["¿Cuándo curso DERECHO ADMINISTRATIVO A0053 COM-01?"],
+      "responses": [
+        "Cursas DERECHO ADMINISTRATIVO los Martes de 13:00 a 16:59 en el AULA 7271 (MODULO VII) (TEÓRICO/PRÁCTICO)."
+      ]
+    }
   }
+
   ]
 }
