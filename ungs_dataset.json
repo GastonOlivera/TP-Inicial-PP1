@@ -1,8 +1,8 @@
 {
   "intents": [
     {
-      "tag":"colectivo_horarios",
-      "patterns":[
+      "tag": "colectivo_horarios",
+      "patterns": [
         "¿A que horarios horario funciona el colectivo de la ungs?",
         "horarios horario",
         "¿A que horarios horario funciona el colectivo de la ungs los dias de semana?",
@@ -14,7 +14,7 @@
         "Horaios horario de salida la universidad",
         "salida universidad"
       ],
-      "responses":[
+      "responses": [
         "lunes a viernes de 07.45 a 22.10  y Sábado de 07.40 a 13.10 hs.",
         "lunes a viernes de 07.45 a 22.10 y Sábado de 07.40 a 13.10 hs.",
         "lunes a viernes de 07.45",
@@ -57,25 +57,24 @@
     {
       "tag": "informacion_general",
       "patterns": [
-          "¿Cual es la direccion de la universidad?",
-          "¿Que actividades extracurriculares ofrece la universidad?",
-          "¿Que Licenciaturas ofrece la universidad?",
-          "licenciaturas",
-          "¿Que ingenierias ofece la universidad?", 
-          "ingenierias",
-          "¿Que profesorados ofrece la universidad?",
-          "profesorados"
-         
+        "¿Cual es la direccion de la universidad?",
+        "¿Que actividades extracurriculares ofrece la universidad?",
+        "¿Que Licenciaturas ofrece la universidad?",
+        "licenciaturas",
+        "¿Que ingenierias ofece la universidad?",
+        "ingenierias",
+        "¿Que profesorados ofrece la universidad?",
+        "profesorados"
       ],
       "responses": [
-          "La dirección de la universidad es Juan María Gutiérrez 1150",
-          "La universidad ofrece una amplia variedad de actividades extracurriculares, incluyendo deportes, clubes estudiantiles, cursos y mas",
-          "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
-          "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
-          "Las Ingenierias son: Automatizacion , Quimica , Industrial",
-          "Las Ingenierias son: Automatizacion , Quimica , Industrial",
-          "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica",
-          "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica"
+        "La dirección de la universidad es Juan María Gutiérrez 1150",
+        "La universidad ofrece una amplia variedad de actividades extracurriculares, incluyendo deportes, clubes estudiantiles, cursos y mas",
+        "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
+        "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
+        "Las Ingenierias son: Automatizacion , Quimica , Industrial",
+        "Las Ingenierias son: Automatizacion , Quimica , Industrial",
+        "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica",
+        "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica"
       ]
     },
     {
@@ -118,19 +117,13 @@
     },
     {
       "tag": "saludos",
-      "patterns": [
-          "hola",
-          "buenos dias",
-          "buenas tardes",
-          "buenas noches"
-      ],
+      "patterns": ["hola", "buenos dias", "buenas tardes", "buenas noches"],
       "responses": [
-          "¡Hola! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
-          "¡Buenos dias! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
-          "¡Buenas tardes! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
-          "¡Buenas noches! ,  Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?"
+        "¡Hola! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
+        "¡Buenos dias! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
+        "¡Buenas tardes! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
+        "¡Buenas noches! ,  Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?"
       ]
-
     },
     {
       "tag": "algebra lineal COM-01",
@@ -536,7 +529,5 @@
         "Cursas DERECHO ADMINISTRATIVO los Martes de 13:00 a 16:59 en el AULA 7271 (MODULO VII) (TEÓRICO/PRÁCTICO)."
       ]
     }
-  }
-
   ]
 }
