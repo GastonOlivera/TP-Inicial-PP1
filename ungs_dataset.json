@@ -1,137 +1,6 @@
 {
+  
   "intents": [
-    {
-      "tag": "colectivo_horarios",
-      "patterns": [
-        "¿A que horarios horario funciona el colectivo de la ungs?",
-        "horarios horario",
-        "¿A que horarios horario funciona el colectivo de la ungs los dias de semana?",
-        "horario horarios dias de semana",
-        "¿A que horario horarios funciona el colectivo de la ungs los fines de semana?",
-        "horario horarios fines de semana",
-        "Horarios horario de salida de lemos",
-        "salida lemos",
-        "Horaios horario de salida la universidad",
-        "salida universidad"
-      ],
-      "responses": [
-        "lunes a viernes de 07.45 a 22.10  y Sábado de 07.40 a 13.10 hs.",
-        "lunes a viernes de 07.45 a 22.10 y Sábado de 07.40 a 13.10 hs.",
-        "lunes a viernes de 07.45",
-        "lunes a viernes de 07.45 a 22.10",
-        "Sábado de 07.40 a 13.10 hs.",
-        "Sábado de 07.40 a 13.10 hs.",
-        "Mañana: 07:45 08:05 08:25 08:45 09:05 09:25 09:45 10:05 10:25 10:45 11:05 11:25 11:45 12:05 12:25  12:45 \n tarde:  13:05 14:20 14:40 15:00 15:20 15:40 16:00 16:20 16:40 17:00 17:20 17:40 18:00 18:20 18:40  19:00 19:20 19:40 \n noche:  20:00 20:20 20:40 21:00 21:20 21:40 22:00 22:20",
-        "Mañana: 07:45 08:05 08:25 08:45 09:05 09:25 09:45 10:05 10:25 10:45 11:05 11:25 11:45 12:05 12:25  12:45 \n tarde:  13:05 14:20 14:40 15:00 15:20 15:40 16:00 16:20 16:40 17:00 17:20 17:40 18:00 18:20 18:40  19:00 19:20 19:40 \n noche:  20:00 20:20 20:40 21:00 21:20 21:40 22:00 22:20",
-        "Mañana: 07:55 08:15 08:35 08:55 09:15 09:35 09:55 10:15 10:35 10:55  11:15 11:35 11:55 12:15 12:35 12:55 \n tarde: 13:15 14:30 14:50  15:10 15:30 15:50 16:10 16:30 16:50 17:10 17:30 17:50 18:10 18:30  18:50 19:10 19:30 19:50 \n noche: 20:10 20:30 20:50 21:10 21:30 21:50 22:10 22:30",
-        "Mañana: 07:55 08:15 08:35 08:55 09:15 09:35 09:55 10:15 10:35 10:55  11:15 11:35 11:55 12:15 12:35 12:55 \n tarde: 13:15 14:30 14:50  15:10 15:30 15:50 16:10 16:30 16:50 17:10 17:30 17:50 18:10 18:30  18:50 19:10 19:30 19:50 \n noche: 20:10 20:30 20:50 21:10 21:30 21:50 22:10 22:30"
-      ]
-    },
-    {
-      "tag": "examenes_finales",
-      "patterns": [
-        "¿Cuándo es el turno de exámenes finales fechas de febrero?",
-        "examenes febrero",
-        "¿Cuándo es el turno de exámenes finales fechas de mayo?",
-        "examenes mayo",
-        "¿Cuándo es el turno de exámenes finales fechas de julio?",
-        "examenes julio",
-        "¿Cuándo es el turno de exámenes finales fechas de octubre?",
-        "examenes octubre",
-        "¿Cuándo es el turno de exámenes fechas de diciembre?",
-        "examenes diciembre"
-      ],
-      "responses": [
-        "Turno febrero: Modalidad Regular y libre. Inscripción desde 30/01/2023 hasta 01/02/2023. Primer llamado desde 06/02/2023 hasta 11/02/2023. Segundo llamado desde 13/02/2023 hasta 18/02/2023.",
-        "Turno febrero: Modalidad Regular y libre. Inscripción desde 30/01/2023 hasta 01/02/2023. Primer llamado desde 06/02/2023 hasta 11/02/2023. Segundo llamado desde 13/02/2023 hasta 18/02/2023.",
-        "Turno mayo: Modalidad Regular. Inscripción desde 02/05/2023 hasta 07/05/2023. Único llamado desde 15/05/2023 hasta 20/05/2023.",
-        "Turno mayo: Modalidad Regular. Inscripción desde 02/05/2023 hasta 07/05/2023. Único llamado desde 15/05/2023 hasta 20/05/2023.",
-        "Turno julio: Modalidad Regular y libre. Inscripción desde 03/07/2023 hasta 05/07/2023. Primer llamado desde 10/07/2023 hasta 15/07/2023. Segundo llamado desde 17/07/2023 hasta 22/07/2023.",
-        "Turno julio: Modalidad Regular y libre. Inscripción desde 03/07/2023 hasta 05/07/2023. Primer llamado desde 10/07/2023 hasta 15/07/2023. Segundo llamado desde 17/07/2023 hasta 22/07/2023.",
-        "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
-        "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
-        "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023.",
-        "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023."
-      ]
-    },
-    {
-      "tag": "informacion_general",
-      "patterns": [
-        "¿Cual es la direccion de la universidad?",
-        "¿Que actividades extracurriculares ofrece la universidad?",
-        "¿Que Licenciaturas ofrece la universidad?",
-        "licenciaturas",
-        "¿Que ingenierias ofece la universidad?",
-        "ingenierias",
-        "¿Que profesorados ofrece la universidad?",
-        "profesorados"
-      ],
-      "responses": [
-        "La dirección de la universidad es Juan María Gutiérrez 1150",
-        "La universidad ofrece una amplia variedad de actividades extracurriculares, incluyendo deportes, clubes estudiantiles, cursos y mas",
-        "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
-        "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
-        "Las Ingenierias son: Automatizacion , Quimica , Industrial",
-        "Las Ingenierias son: Automatizacion , Quimica , Industrial",
-        "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica",
-        "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica"
-      ]
-    },
-    {
-      "tag": "inscripciones_primer_semestre",
-      "patterns": [
-        "¿Cuando puedo inscribirme a las materias primer semestre?",
-        "inscripcion primer semestre",
-        "¿Cuándo comienza la cursada del primer semestre?",
-        "comienza primer semestre",
-        "¿Cuándo termina la cursada del primer semestre?",
-        "termina primer semestre"
-      ],
-      "responses": [
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023"
-      ]
-    },
-    {
-      "tag": "inscripciones_segundo_semestre",
-      "patterns": [
-        "¿Cuando puedo inscribirme a las materias segundo semestre?",
-        "inscripcion segundo semestre",
-        "¿Cuándo comienza la cursada del segundo semestre?",
-        "comienza segundo semestre",
-        "¿Cuándo termina la cursada del segundo semestre?",
-        "termina segundo semestre"
-      ],
-      "responses": [
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023"
-      ]
-    },
-    {
-      "tag": "saludos",
-      "patterns": ["hola", "buenos dias", "buenas tardes", "buenas noches"],
-      "responses": [
-        "¡Hola! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
-        "¡Buenos dias! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
-        "¡Buenas tardes! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
-        "¡Buenas noches! ,  Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?"
-      ]
-    },
-    {
-      "tag": "algebra lineal COM-01",
-      "patterns": ["¿cuando curso algebra lineal COM-01?"],
-      "responses": [
-        "Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRACTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRACTICO)"
-      ]
-    },
     {
       "tag": "administración de la producción y mantenimiento A0075 COM-01",
       "patterns": [
@@ -467,6 +336,33 @@
         "Cursas CIUDAD Y AMBIENTE los Lunes de 18:00 a 22:00 en la SALA REUNION (ROCA) (TEÓRICO/PRÁCTICO)."
       ]
     },
+       {
+      "tag": "colectivo_horarios",
+      "patterns": [
+        "¿A que horarios horario funciona el colectivo de la ungs?",
+        "horarios horario",
+        "¿A que horarios horario funciona el colectivo de la ungs los dias de semana?",
+        "horario horarios dias de semana",
+        "¿A que horario horarios funciona el colectivo de la ungs los fines de semana?",
+        "horario horarios fines de semana",
+        "Horarios horario de salida de lemos",
+        "salida lemos",
+        "Horaios horario de salida la universidad",
+        "salida universidad"
+      ],
+      "responses": [
+        "lunes a viernes de 07.45 a 22.10  y Sábado de 07.40 a 13.10 hs.",
+        "lunes a viernes de 07.45 a 22.10 y Sábado de 07.40 a 13.10 hs.",
+        "lunes a viernes de 07.45",
+        "lunes a viernes de 07.45 a 22.10",
+        "Sábado de 07.40 a 13.10 hs.",
+        "Sábado de 07.40 a 13.10 hs.",
+        "Mañana: 07:45 08:05 08:25 08:45 09:05 09:25 09:45 10:05 10:25 10:45 11:05 11:25 11:45 12:05 12:25  12:45 \n tarde:  13:05 14:20 14:40 15:00 15:20 15:40 16:00 16:20 16:40 17:00 17:20 17:40 18:00 18:20 18:40  19:00 19:20 19:40 \n noche:  20:00 20:20 20:40 21:00 21:20 21:40 22:00 22:20",
+        "Mañana: 07:45 08:05 08:25 08:45 09:05 09:25 09:45 10:05 10:25 10:45 11:05 11:25 11:45 12:05 12:25  12:45 \n tarde:  13:05 14:20 14:40 15:00 15:20 15:40 16:00 16:20 16:40 17:00 17:20 17:40 18:00 18:20 18:40  19:00 19:20 19:40 \n noche:  20:00 20:20 20:40 21:00 21:20 21:40 22:00 22:20",
+        "Mañana: 07:55 08:15 08:35 08:55 09:15 09:35 09:55 10:15 10:35 10:55  11:15 11:35 11:55 12:15 12:35 12:55 \n tarde: 13:15 14:30 14:50  15:10 15:30 15:50 16:10 16:30 16:50 17:10 17:30 17:50 18:10 18:30  18:50 19:10 19:30 19:50 \n noche: 20:10 20:30 20:50 21:10 21:30 21:50 22:10 22:30",
+        "Mañana: 07:55 08:15 08:35 08:55 09:15 09:35 09:55 10:15 10:35 10:55  11:15 11:35 11:55 12:15 12:35 12:55 \n tarde: 13:15 14:30 14:50  15:10 15:30 15:50 16:10 16:30 16:50 17:10 17:30 17:50 18:10 18:30  18:50 19:10 19:30 19:50 \n noche: 20:10 20:30 20:50 21:10 21:30 21:50 22:10 22:30"
+      ]
+    },
     {
       "tag": "COMUNICACIÓN INSTITUCIONAL A0044 COM-01",
       "patterns": ["¿Cuándo curso COMUNICACIÓN INSTITUCIONAL A0044 COM-01?"],
@@ -514,7 +410,7 @@
       ]
     },
     {
-      "tag": "CUESTIONES AMBIENTALES CONTEMPORÁNEAS A0426 COM-01",
+      "tag": "cuestiones ambientales",
       "patterns": [
         "¿Cuándo curso CUESTIONES AMBIENTALES CONTEMPORÁNEAS A0426 COM-01?"
       ],
@@ -523,10 +419,108 @@
       ]
     },
     {
-      "tag": "DERECHO ADMINISTRATIVO A0053 COM-01",
+      "tag": "derecho administrativo",
       "patterns": ["¿Cuándo curso DERECHO ADMINISTRATIVO A0053 COM-01?"],
       "responses": [
         "Cursas DERECHO ADMINISTRATIVO los Martes de 13:00 a 16:59 en el AULA 7271 (MODULO VII) (TEÓRICO/PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "examenes_finales",
+      "patterns": [
+        "¿Cuándo es el turno de exámenes finales fechas de febrero?",
+        "examenes febrero",
+        "¿Cuándo es el turno de exámenes finales fechas de mayo?",
+        "examenes mayo",
+        "¿Cuándo es el turno de exámenes finales fechas de julio?",
+        "examenes julio",
+        "¿Cuándo es el turno de exámenes finales fechas de octubre?",
+        "examenes octubre",
+        "¿Cuándo es el turno de exámenes fechas de diciembre?",
+        "examenes diciembre"
+      ],
+      "responses": [
+        "Turno febrero: Modalidad Regular y libre. Inscripción desde 30/01/2023 hasta 01/02/2023. Primer llamado desde 06/02/2023 hasta 11/02/2023. Segundo llamado desde 13/02/2023 hasta 18/02/2023.",
+        "Turno febrero: Modalidad Regular y libre. Inscripción desde 30/01/2023 hasta 01/02/2023. Primer llamado desde 06/02/2023 hasta 11/02/2023. Segundo llamado desde 13/02/2023 hasta 18/02/2023.",
+        "Turno mayo: Modalidad Regular. Inscripción desde 02/05/2023 hasta 07/05/2023. Único llamado desde 15/05/2023 hasta 20/05/2023.",
+        "Turno mayo: Modalidad Regular. Inscripción desde 02/05/2023 hasta 07/05/2023. Único llamado desde 15/05/2023 hasta 20/05/2023.",
+        "Turno julio: Modalidad Regular y libre. Inscripción desde 03/07/2023 hasta 05/07/2023. Primer llamado desde 10/07/2023 hasta 15/07/2023. Segundo llamado desde 17/07/2023 hasta 22/07/2023.",
+        "Turno julio: Modalidad Regular y libre. Inscripción desde 03/07/2023 hasta 05/07/2023. Primer llamado desde 10/07/2023 hasta 15/07/2023. Segundo llamado desde 17/07/2023 hasta 22/07/2023.",
+        "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
+        "Turno octubre: Modalidad Regular. Inscripción desde 02/10/2023 hasta 08/10/2023. Único llamado desde 16/10/2023 hasta 21/10/2023.",
+        "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023.",
+        "Turno diciembre: Modalidad Regular y libre. Inscripción desde 04/12/2023 hasta 06/12/2023. Primer llamado desde 11/12/2023 hasta 16/12/2023. Segundo llamado desde 18/12/2023 hasta 23/12/2023."
+      ]
+    },
+    {
+      "tag": "informacion_general",
+      "patterns": [
+        "¿Cual es la direccion de la universidad?",
+        "¿Que actividades extracurriculares ofrece la universidad?",
+        "¿Que Licenciaturas ofrece la universidad?",
+        "licenciaturas",
+        "¿Que ingenierias ofece la universidad?",
+        "ingenierias",
+        "¿Que profesorados ofrece la universidad?",
+        "profesorados"
+      ],
+      "responses": [
+        "La dirección de la universidad es Juan María Gutiérrez 1150",
+        "La universidad ofrece una amplia variedad de actividades extracurriculares, incluyendo deportes, clubes estudiantiles, cursos y mas",
+        "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
+        "Las licenciaturas son: Administracion de empresas , Administracion publica , comunicacion , cultura y leguajes artisticos , Ecologia , Economia industrial ,Economia politica , Educacio, Estudios politicos ,Politica social , Sistemas , Urbanismo",
+        "Las Ingenierias son: Automatizacion , Quimica , Industrial",
+        "Las Ingenierias son: Automatizacion , Quimica , Industrial",
+        "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica",
+        "Los profesorados son: Economia , Filosofia , Fisica , Geografia , Historia , Lengua y Literatura , Matematica"
+      ]
+    },
+    {
+      "tag": "inscripciones_primer_semestre",
+      "patterns": [
+        "¿Cuando puedo inscribirme a las materias primer semestre?",
+        "inscripcion primer semestre",
+        "¿Cuándo comienza la cursada del primer semestre?",
+        "comienza primer semestre",
+        "¿Cuándo termina la cursada del primer semestre?",
+        "termina primer semestre"
+      ],
+      "responses": [
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
+        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023"
+      ]
+    },
+    {
+      "tag": "inscripciones_segundo_semestre",
+      "patterns": [
+        "¿Cuando puedo inscribirme a las materias segundo semestre?",
+        "inscripcion segundo semestre",
+        "¿Cuándo comienza la cursada del segundo semestre?",
+        "comienza segundo semestre",
+        "¿Cuándo termina la cursada del segundo semestre?",
+        "termina segundo semestre"
+      ],
+      "responses": [
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
+        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023"
+      ]
+    },
+    {
+      "tag": "saludos",
+      "patterns": ["hola", "buenos dias", "buenas tardes", "buenas noches"],
+      "responses": [
+        "¡Hola! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
+        "¡Buenos dias! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
+        "¡Buenas tardes! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
+        "¡Buenas noches! ,  Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?"
       ]
     }
   ]

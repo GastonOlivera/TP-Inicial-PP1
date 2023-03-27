@@ -62,7 +62,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-optimizer = legacy_optimizer.Adam(lr=0.0001, decay=1e-4)
+optimizer = legacy_optimizer.Adam(lr=0.001, decay=1e-6)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=5, verbose=1)
 
@@ -103,22 +103,12 @@ def get_response(prediction,text_predict):
     confiar = result[0][result.argmax()]
     if confiar < 0.7:
         return "Lo siento, no entiendo lo que estás diciendo."
-    indice_pregunta = None
-    intent = intents['intents'][max_index]
-    if intent['tag'] == 'saludos':
-       response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
-    elif intent['tag'] == 'examenes_finales':
-        response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
-    elif intent['tag'] == 'informacion_general':
-        response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
-    elif intent['tag'] == 'inscripciones_primer_semestre':
-        response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
-    elif intent['tag'] == 'inscripciones_segundo_semestre':
-       response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
-    elif intent['tag'] == 'colectivo_horarios':
-       response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
-    else:
-        response = "Lo siento, no puedo responder esa pregunta en este momento."
+    tag = intents['intents'][max_index]
+    response = "aca seteo algo"
+    for intent in intents['intents']:
+        tagActual= " ".join(intent['tag'])
+        if tagActual == tag :
+            response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
     return response
 
 
