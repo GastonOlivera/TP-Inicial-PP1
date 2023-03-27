@@ -1,19 +1,21 @@
-import telebot
-import json
-import random
+import telebot , json , random , nltk
 import numpy as np
-import nltk
 from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from keras.layers import LSTM
 from tensorflow.keras.optimizers import legacy as legacy_optimizer
+from nltk.tokenize import word_tokenize
+from fuzzywuzzy import process , fuzz
+
 
 
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('stopwords')
 lemmatizer = WordNetLemmatizer()
-intents_file = open('preguntas_respuestas_bot.json', encoding='utf8')
+intents_file = open('ungs_dataset.json', encoding='utf8')
 intents_data = json.load(intents_file)
 
 
@@ -60,7 +62,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-optimizer = legacy_optimizer.Adam(lr=0.001, decay=1e-6)
+optimizer = legacy_optimizer.Adam(lr=0.0001, decay=1e-4)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=5, verbose=1)
 
@@ -70,7 +72,7 @@ print('Modelo de chatbot de la universidad creado.')
 
 
 # Cargar el archivo con las preguntas y respuestas
-intents = json.load(open('preguntas_respuestas_bot.json'))
+intents = json.load(open('ungs_dataset.json', encoding='utf-8'))
 
 # Crear el lematizador
 lemmatizer = WordNetLemmatizer()
@@ -95,29 +97,61 @@ def predict_intent(text):
     return np.array(bag_of_words)
 
 # Función para obtener la respuesta adecuada
-def get_response(prediction):
+def get_response(prediction,text_predict):
     result = model.predict(np.array([prediction]))
     max_index = np.argmax(result)
     confiar = result[0][result.argmax()]
-    if confiar < 0.6:
+    if confiar < 0.7:
         return "Lo siento, no entiendo lo que estás diciendo."
+    indice_pregunta = None
     intent = intents['intents'][max_index]
     if intent['tag'] == 'saludos':
-        response = random.choice(intent['responses'])
-    elif intent['tag'] == 'programas_estudio':
-        response =  random.choice(intent['responses'])
+       response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
+    elif intent['tag'] == 'examenes_finales':
+        response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
     elif intent['tag'] == 'informacion_general':
-        response = random.choice(intent['responses'])
+        response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
+    elif intent['tag'] == 'inscripciones_primer_semestre':
+        response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
+    elif intent['tag'] == 'inscripciones_segundo_semestre':
+       response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
+    elif intent['tag'] == 'colectivo_horarios':
+       response = get_best_response(text_predict , intent ['patterns'], intent['responses'])
     else:
         response = "Lo siento, no puedo responder esa pregunta en este momento."
     return response
+
+
+
+
+
+def get_best_response(message, patterns, responses):
+    # Encuentra el patrón con el mejor match con el mensaje del usuario
+    message = " ".join(message)
+    
+    tokenized_patterns = [word_tokenize(pattern.lower()) for pattern in patterns]
+    best_match = process.extractOne(message, tokenized_patterns,  scorer=fuzz.token_set_ratio)[0]
+    best_match = " ".join(best_match).rstrip('?')
+    if best_match[-1] == " ":
+        best_match = best_match[:-1]
+    
+    patterns_lowercase = [pattern.lower().rstrip('?') for pattern in patterns]
+    # Encuentra el índice del mejor match
+    index = patterns_lowercase.index(best_match)
+    
+    # Devuelve la respuesta correspondiente al índice encontrado
+    return responses[index]
+
+  
+
 
 # Función para manejar los mensajes del usuario
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     text = message.text
+    text_predict= preprocess_text(text)
     prediction = predict_intent(text)
-    response = get_response(prediction)
+    response = get_response(prediction,text_predict)
     bot.reply_to(message, response)
     
 
