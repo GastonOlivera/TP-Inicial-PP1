@@ -5,7 +5,7 @@ def clean_text(text):
     return cleaned_text
 
 with pdfplumber.open('materias.pdf') as pdf:
-    page = pdf.pages[1]
+    page = pdf.pages[3]
     table = page.extract_table()
 
     cleaned_table = []
