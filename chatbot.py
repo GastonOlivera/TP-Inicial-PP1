@@ -1,13 +1,16 @@
-import telebot , json , random , nltk
+import telebot , json , random , nltk , tempfile, io , requests
+import  speech_recognition as sr
 import numpy as np
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
-from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Dense, Dropout
 from keras.layers import LSTM
 from tensorflow.keras.optimizers import legacy as legacy_optimizer
 from nltk.tokenize import word_tokenize
 from fuzzywuzzy import process , fuzz
+from telebot import types
+ 
 
 
 
@@ -70,15 +73,14 @@ model.save('universidad_chatbot_model.h5', save_format='h5')
 
 print('Modelo de chatbot de la universidad creado.')
 
-
 # Cargar el archivo con las preguntas y respuestas
 intents = json.load(open('ungs_dataset.json', encoding='utf-8'))
 
 # Crear el lematizador
 lemmatizer = WordNetLemmatizer()
-
+ 
 # Crear un objeto de Telegram bot
-bot = telebot.TeleBot("5992272837:AAGzBYhnyahhbVyfXDrBg0RFUtcNRKQ5jq4")
+bot = telebot.TeleBot("5924283235:AAH2aWjFTHkR1cwGe6132h9U4Eo4EjXjnZM")
 
 # Función para preprocesar el texto del usuario
 def preprocess_text(text):
@@ -117,6 +119,9 @@ def get_response(prediction,text_predict):
 
 def get_best_response(message, patterns, responses):
     # Encuentra el patrón con el mejor match con el mensaje del usuario
+    if len(responses) == 1:
+       return responses[0]
+   
     message = " ".join(message)
     
     tokenized_patterns = [word_tokenize(pattern.lower()) for pattern in patterns]
@@ -132,8 +137,10 @@ def get_best_response(message, patterns, responses):
     # Devuelve la respuesta correspondiente al índice encontrado
     return responses[index]
 
-  
 
+
+
+ 
 
 # Función para manejar los mensajes del usuario
 @bot.message_handler(func=lambda message: True)

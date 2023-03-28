@@ -34,8 +34,6 @@
       "tag": "agradecimiento",
      "patterns": ["gracias", "genial", "te agreadezco"],
       "responses": [
-        "Denada! espero haber sido de ayuda",
-        "Denada! espero haber sido de ayuda",
         "Denada! espero haber sido de ayuda"
     ]
     },
@@ -58,10 +56,7 @@
         "¿Cuándo tengo algebra lineal"
       ],
       "responses": [
-        "Comision 1: La clase de Algebra Lineal A0025 COM-01 se lleva a cabo los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO). Profesoras: Gonzalez Lucia Maria y Marcantognini Palacios Stefania Alma María. \n \n Comision 2:  Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO) \n \n Comision 3 : Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO). Jueves de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n Cursas algebra lineal los martes y jueves.\nMartes de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n \n Comision 4: Jueves de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO) \n \n Comision 5: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO) \n \n Comision 6: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO) \n \n Comision 7: Cursas algebra lineal los martes y jueves.\nMartes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO) Jueves de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)",
-        "Comision 1: La clase de Algebra Lineal A0025 COM-01 se lleva a cabo los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO). Profesoras: Gonzalez Lucia Maria y Marcantognini Palacios Stefania Alma María. \n \n Comision 2:  Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO) \n \n Comision 3 : Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO). Jueves de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n Cursas algebra lineal los martes y jueves.\nMartes de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n \n Comision 4: Jueves de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO) \n \n Comision 5: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO) \n \n Comision 6: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO) \n \n Comision 7: Cursas algebra lineal los martes y jueves.\nMartes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO) Jueves de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)",
-        "Comision 1: La clase de Algebra Lineal A0025 COM-01 se lleva a cabo los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO). Profesoras: Gonzalez Lucia Maria y Marcantognini Palacios Stefania Alma María. \n \n Comision 2:  Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO) \n \n Comision 3 : Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO). Jueves de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n Cursas algebra lineal los martes y jueves.\nMartes de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n \n Comision 4: Jueves de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO) \n \n Comision 5: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO) \n \n Comision 6: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)  \n \n Comision 7: Cursas algebra lineal los martes y jueves.\nMartes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO) Jueves de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)"
-      ]
+        "Comision 1: La clase de Algebra Lineal A0025 COM-01 se lleva a cabo los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO). Profesoras: Gonzalez Lucia Maria y Marcantognini Palacios Stefania Alma María. \n \n Comision 2:  Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7141 (PRÁCTICO). Jueves de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 7030 (PRÁCTICO) \n \n Comision 3 : Cursas algebra lineal los martes y jueves. Martes de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO). Jueves de 08:00 a 09:59 en el AULA 3010 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n Cursas algebra lineal los martes y jueves.\nMartes de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO)\n \n Comision 4: Jueves de 08:00 a 09:59 en el AULA 7184 (PRÁCTICO) y de 10:00 a 11:59 en el AULA 3024 (TEÓRICO) \n \n Comision 5: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7016 (PRÁCTICO) \n \n Comision 6: Cursas algebra lineal los martes y jueves.\nMartes de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO)\nJueves de 14:00 a 15:59 en el AULA 3024 (TEÓRICO) y de 16:00 a 17:59 en el AULA 7272 (PRÁCTICO) \n \n Comision 7: Cursas algebra lineal los martes y jueves.\nMartes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO) Jueves de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7120 (PRÁCTICO)"      ]
     },
     {
       "tag": "analisis_matematico",
@@ -70,10 +65,7 @@
                     "curso analisis matematico"
     ],
       "responses": [
-        "Cursas análisis matemático los lunes y jueves.\nLunes de 18:00 a 22:00 en el LABO COM 7010 (TEÓRICO/PRÁCTICO)\nJueves de 18:00 a 22:00 en el LABO COM 7112 (TEÓRICO/PRÁCTICO)",
-        "Cursas análisis matemático los lunes y jueves.\nLunes de 18:00 a 22:00 en el LABO COM 7010 (TEÓRICO/PRÁCTICO)\nJueves de 18:00 a 22:00 en el LABO COM 7112 (TEÓRICO/PRÁCTICO)",
-        "Cursas análisis matemático los lunes y jueves.\nLunes de 18:00 a 22:00 en el LABO COM 7010 (TEÓRICO/PRÁCTICO)\nJueves de 18:00 a 22:00 en el LABO COM 7112 (TEÓRICO/PRÁCTICO)"
-      ]
+        "Cursas análisis matemático los lunes y jueves.\nLunes de 18:00 a 22:00 en el LABO COM 7010 (TEÓRICO/PRÁCTICO)\nJueves de 18:00 a 22:00 en el LABO COM 7112 (TEÓRICO/PRÁCTICO)"      ]
     },
     {
       "tag": "analisis_territorial",
@@ -90,10 +82,7 @@
                     "antropologia"
     ],
       "responses": [
-        "Cursas antropología filosófica los lunes y miércoles.\nLunes de 18:00 a 22:00 en el LAB ING 3011 (MODULO III D - LAB ING)\nMiércoles de 18:00 a 19:59 en la SALA LECT 2º C (BIBLIOTECA)",
-        "Cursas antropología filosófica los lunes y miércoles.\nLunes de 18:00 a 22:00 en el LAB ING 3011 (MODULO III D - LAB ING)\nMiércoles de 18:00 a 19:59 en la SALA LECT 2º C (BIBLIOTECA)",
-        "Cursas antropología filosófica los lunes y miércoles.\nLunes de 18:00 a 22:00 en el LAB ING 3011 (MODULO III D - LAB ING)\nMiércoles de 18:00 a 19:59 en la SALA LECT 2º C (BIBLIOTECA)"
-      ]
+        "Cursas antropología filosófica los lunes y miércoles.\nLunes de 18:00 a 22:00 en el LAB ING 3011 (MODULO III D - LAB ING)\nMiércoles de 18:00 a 19:59 en la SALA LECT 2º C (BIBLIOTECA)"      ]
     },
     {
       "tag": "artes_audiovisuales",
@@ -108,9 +97,7 @@
                     "artes escenicas"
                  ],
       "responses": [
-        "Cursas artes escénicas II los martes de 18:00 a 22:00 en la SALA 'SALA' 5101 (MODULO V).",
         "Cursas artes escénicas II los martes de 18:00 a 22:00 en la SALA 'SALA' 5101 (MODULO V)."
-
       ]
     },
     {
@@ -120,16 +107,21 @@
                     "curso automatizacion"
     ],
       "responses": [
-        "Cursas automatización I los miércoles de 18:00 a 22:00 en el LAB AUTO 3 (MODULO III D - LAB ING).",
-        "Cursas automatización I los miércoles de 18:00 a 22:00 en el LAB AUTO 3 (MODULO III D - LAB ING).",
-        "Cursas automatización I los miércoles de 18:00 a 22:00 en el LAB AUTO 3 (MODULO III D - LAB ING)."
-      ]
+        "Cursas automatización I los miércoles de 18:00 a 22:00 en el LAB AUTO 3 (MODULO III D - LAB ING)."      ]
     },
     {
       "tag": "automatizacion_industrial",
       "patterns": ["¿Cuándo curso automatización industrial I A0437 COM-01?"],
       "responses": [
         "Cursas automatización industrial I los martes de 18:00 a 22:00 en el LAB GRAL 5 (MODULO III D - LAB ING)."
+      ]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["/help" , "ayuda" , "ayudame", "help"],
+      "responses": [
+          "Soy un bot programado por el grupo 1 de la materia Proyecto Profesional 1 \n \n Podes pedirme horarios de cursada ingresando el nombre de la materia \n \n Horario del colectivo de la universidad \n \n Informacion general como direccion y carreras \n \n Fechas de finales ingresando el mes y la palabra 'finales' \n \n Y fechas de inscripcion ingresando si quiere consultar el primer o el segundo trimestre"
+
       ]
     },
     {
@@ -147,26 +139,13 @@
       ]
     },
     {
-      "tag": "calculo_en_varias_variables",
-      "patterns": ["¿Cuándo curso cálculo en varias variables A0038 COM-01?",
-                    "calculo en variables"
-    
-    ],
-      "responses": [
-        "Cursas cálculo en varias variables los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7280 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7030 (PRÁCTICO).",
-        "Cursas cálculo en varias variables los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7280 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7030 (PRÁCTICO)."
-
-      ]
-    },
-    {
       "tag": "calculo",
       "patterns": ["¿Cuándo curso cálculo I A0039 COM-01?",
-                    "calculo",
-                    "curso calculo"
+                    "calculo I",
+                    "curso calculo I",
+                    "Calculo 1"
     ],
       "responses": [
-        "Cursas cálculo I los lunes y miércoles. Lunes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO). Miércoles de 08:00 a 09:59 en el AULA 3024 (TEORICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO)",
-        "Cursas cálculo I los lunes y miércoles. Lunes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO). Miércoles de 08:00 a 09:59 en el AULA 3024 (TEORICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO)",
         "Cursas cálculo I los lunes y miércoles. Lunes de 08:00 a 09:59 en el AULA 3024 (TEÓRICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO). Miércoles de 08:00 a 09:59 en el AULA 3024 (TEORICO) y de 10:00 a 11:59 en el AULA 3009 (PRÁCTICO)"
       ]
     },
@@ -174,12 +153,20 @@
       "tag": "calculo_II",
       "patterns": ["¿Cuándo curso cálculo II COM-01?",
                     "Calculo II",
+                    "Calculo 2",
                     "Curso calculo II"
     ],
       "responses": [
-        "Cursas cálculo II los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 7018 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7018 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 7182 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7182 (PRÁCTICO).",
-        "Cursas cálculo II los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 7018 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7018 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 7182 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7182 (PRÁCTICO).",
         "Cursas cálculo II los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 7018 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7018 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 7182 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7182 (PRÁCTICO)."
+      ]
+    },
+    {
+      "tag": "calculo_en_varias_variables",
+      "patterns": ["¿Cuándo curso cálculo en varias variables A0038 COM-01?",
+                    "calculo en variables"
+    ],
+      "responses": [
+        "Cursas cálculo en varias variables los lunes y miércoles. Lunes de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7280 (PRÁCTICO). Miércoles de 18:00 a 19:59 en el AULA 3024 (TEÓRICO) y de 20:00 a 22:00 en el AULA 7030 (PRÁCTICO)."
       ]
     },
     {
@@ -197,8 +184,6 @@
     
     ],
       "responses": [
-        "Cursas Cartografía Temática los martes y jueves. Martes de 18:00 a 22:00 y jueves de 18:00 a 22:00 en LABO SIG 602 del Módulo VI.",
-        "Cursas Cartografía Temática los martes y jueves. Martes de 18:00 a 22:00 y jueves de 18:00 a 22:00 en LABO SIG 602 del Módulo VI.",
         "Cursas Cartografía Temática los martes y jueves. Martes de 18:00 a 22:00 y jueves de 18:00 a 22:00 en LABO SIG 602 del Módulo VI."
       ]
     },
@@ -208,8 +193,6 @@
                   "Cartografia sensores",
                   "sensores"],
       "responses": [
-        "Cursas Cartografía, Sensores Remotos y Sistemas de Información Geográfica los miércoles y viernes. Miércoles de 18:00 a 19:59 y viernes de 18:00 a 22:00 en LABO COM 7116 y LABO COM 7114 del Módulo VII.",
-        "Cursas Cartografía, Sensores Remotos y Sistemas de Información Geográfica los miércoles y viernes. Miércoles de 18:00 a 19:59 y viernes de 18:00 a 22:00 en LABO COM 7116 y LABO COM 7114 del Módulo VII.",
         "Cursas Cartografía, Sensores Remotos y Sistemas de Información Geográfica los miércoles y viernes. Miércoles de 18:00 a 19:59 y viernes de 18:00 a 22:00 en LABO COM 7116 y LABO COM 7114 del Módulo VII."
       ]
     },
@@ -239,24 +222,18 @@
       "patterns": [
         "¿A que horarios horario funciona el colectivo de la ungs?",
         "horarios horario",
-        "¿A que horarios horario funciona el colectivo de la ungs los dias de semana?",
-        "horario horarios dias de semana",
-        "¿A que horario horarios funciona el colectivo de la ungs los fines de semana?",
-        "horario horarios fines de semana",
         "Horarios horario de salida de lemos",
         "salida lemos",
         "Horaios horario de salida la universidad",
-        "salida universidad"
+        "salida universidad",
+        "salida UNGS"
       ],
       "responses": [
-        "lunes a viernes de 07.45 a 22.10  y Sábado de 07.40 a 13.10 hs.",
-        "lunes a viernes de 07.45 a 22.10 y Sábado de 07.40 a 13.10 hs.",
-        "lunes a viernes de 07.45",
-        "lunes a viernes de 07.45 a 22.10",
-        "Sábado de 07.40 a 13.10 hs.",
-        "Sábado de 07.40 a 13.10 hs.",
+        "lunes a viernes de 07.45 a 22.10  y Sábado de 07.40 a 13.10 hs. \n Para ver los horarios saliendo de lemos ingrese 'salida lemos' . \n Para ver los horarios saliendo de la universiad ingrese 'salida universidad'",
+        "lunes a viernes de 07.45 a 22.10 y Sábado de 07.40 a 13.10 hs. \n Para ver los horarios saliendo de lemos ingrese 'salida lemos' . \n Para ver los horarios saliendo de la universiad ingrese 'salida universidad'",
         "Mañana: 07:45 08:05 08:25 08:45 09:05 09:25 09:45 10:05 10:25 10:45 11:05 11:25 11:45 12:05 12:25  12:45 \n tarde:  13:05 14:20 14:40 15:00 15:20 15:40 16:00 16:20 16:40 17:00 17:20 17:40 18:00 18:20 18:40  19:00 19:20 19:40 \n noche:  20:00 20:20 20:40 21:00 21:20 21:40 22:00 22:20",
         "Mañana: 07:45 08:05 08:25 08:45 09:05 09:25 09:45 10:05 10:25 10:45 11:05 11:25 11:45 12:05 12:25  12:45 \n tarde:  13:05 14:20 14:40 15:00 15:20 15:40 16:00 16:20 16:40 17:00 17:20 17:40 18:00 18:20 18:40  19:00 19:20 19:40 \n noche:  20:00 20:20 20:40 21:00 21:20 21:40 22:00 22:20",
+        "Mañana: 07:55 08:15 08:35 08:55 09:15 09:35 09:55 10:15 10:35 10:55  11:15 11:35 11:55 12:15 12:35 12:55 \n tarde: 13:15 14:30 14:50  15:10 15:30 15:50 16:10 16:30 16:50 17:10 17:30 17:50 18:10 18:30  18:50 19:10 19:30 19:50 \n noche: 20:10 20:30 20:50 21:10 21:30 21:50 22:10 22:30",
         "Mañana: 07:55 08:15 08:35 08:55 09:15 09:35 09:55 10:15 10:35 10:55  11:15 11:35 11:55 12:15 12:35 12:55 \n tarde: 13:15 14:30 14:50  15:10 15:30 15:50 16:10 16:30 16:50 17:10 17:30 17:50 18:10 18:30  18:50 19:10 19:30 19:50 \n noche: 20:10 20:30 20:50 21:10 21:30 21:50 22:10 22:30",
         "Mañana: 07:55 08:15 08:35 08:55 09:15 09:35 09:55 10:15 10:35 10:55  11:15 11:35 11:55 12:15 12:35 12:55 \n tarde: 13:15 14:30 14:50  15:10 15:30 15:50 16:10 16:30 16:50 17:10 17:30 17:50 18:10 18:30  18:50 19:10 19:30 19:50 \n noche: 20:10 20:30 20:50 21:10 21:30 21:50 22:10 22:30"
       ]
@@ -327,8 +304,6 @@
       "tag": "despedidas",
       "patterns": ["chau", "adios", "hasta luego"],
       "responses": [
-        "Adios! , espero haber sido de ayuda :)",
-        "Adios! , espero haber sido de ayuda :)",
         "Adios! , espero haber sido de ayuda :)"
       ]
     },
@@ -393,11 +368,6 @@
         "termina primer semestre"
       ],
       "responses": [
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
-        "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023",
         "La primera vuelta para inscripciones es desde 06/02/2023 hasta el 12/02/2023 y la segunda desde el 28/02/2023 hasta el 02/03/2023. Comienza el 06/03/2023 y termina el 24/06/2023"
       ]
     },
@@ -412,27 +382,28 @@
         "termina segundo semestre"
       ],
       "responses": [
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
-        "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023",
         "La primera vuelta para inscripciones es desde 19/07/2023 hasta el 22/07/2023 y la segunda desde el 31/07/2023 hasta el 02/08/2023. Comienza 07/08/2023 y termina el 25/11/2023"
       ]
     },
     {
-      "tag": "PROYECTO PROFESIONAL 1",
+      "tag": "proyecto_profesional I",
       "patterns": [
-        "¿Cuándo curso PROYECTO PROFESIONAL I A0528 COM-01?"
+        "¿Cuándo curso PROYECTO PROFESIONAL I A0528 COM-01?",
+        "proyecto profesional",
+        "proyecto profesional 1",
+        "pp1"
       ],
       "responses": [
         "Cursas PROYECTO PROFESIONAL 1 los Martes de 18:00 a 22:00 en el labo 7116 y los Viernes de 18:00 a 19:59 en el labo 7116"
       ]
     },
     {
-      "tag": "PROYECTO PROFESIONAL 2",
+      "tag": "proyecto_profesional II",
       "patterns": [
-        "¿Cuándo curso PROYECTO PROFESIONAL 2 A0531 COM-01?"
+        "¿Cuándo curso PROYECTO PROFESIONAL 2 A0531 COM-01?",
+        "proyecto profesional II",
+        "proyecto profesional 2",
+        "pp2"
       ],
       "responses": [
         "Cursas PROYECTO PROFESIONAL 2 los Martes de 18:00 a 22:00 en el labo 7210 y los Viernes de 18:00 a 22:00 en el labo 7210"
@@ -440,12 +411,13 @@
     },
     {
       "tag": "saludos",
-      "patterns": ["hola", "buenos dias", "buenas tardes", "buenas noches","start"],
+      "patterns": ["hola", "buenos dias", "buenas tardes", "buenas noches" , "/start"],
       "responses": [
         "¡Hola! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
         "¡Buenos dias! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
         "¡Buenas tardes! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
-        "¡Buenas noches! ,  Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?"
+        "¡Buenas noches! ,  Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
+        "¡Hola! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?"
       ]
     }
   ]
