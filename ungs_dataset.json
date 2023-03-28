@@ -421,8 +421,26 @@
       ]
     },
     {
+      "tag": "PROYECTO PROFESIONAL 1",
+      "patterns": [
+        "¿Cuándo curso PROYECTO PROFESIONAL I A0528 COM-01?"
+      ],
+      "responses": [
+        "Cursas PROYECTO PROFESIONAL 1 los Martes de 18:00 a 22:00 en el labo 7116 y los Viernes de 18:00 a 19:59 en el labo 7116"
+      ]
+    },
+    {
+      "tag": "PROYECTO PROFESIONAL 2",
+      "patterns": [
+        "¿Cuándo curso PROYECTO PROFESIONAL 2 A0531 COM-01?"
+      ],
+      "responses": [
+        "Cursas PROYECTO PROFESIONAL 2 los Martes de 18:00 a 22:00 en el labo 7210 y los Viernes de 18:00 a 22:00 en el labo 7210"
+      ]
+    },
+    {
       "tag": "saludos",
-      "patterns": ["hola", "buenos dias", "buenas tardes", "buenas noches"],
+      "patterns": ["hola", "buenos dias", "buenas tardes", "buenas noches","start"],
       "responses": [
         "¡Hola! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",
         "¡Buenos dias! , Soy un bot programado por el grupo 1 de PP1 basado en la Universad Nacional De General Sarmiento. ¿En qué puedo ayudarte?",

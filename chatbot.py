@@ -78,7 +78,7 @@ intents = json.load(open('ungs_dataset.json', encoding='utf-8'))
 lemmatizer = WordNetLemmatizer()
 
 # Crear un objeto de Telegram bot
-bot = telebot.TeleBot("5924283235:AAH2aWjFTHkR1cwGe6132h9U4Eo4EjXjnZM")
+bot = telebot.TeleBot("5992272837:AAGzBYhnyahhbVyfXDrBg0RFUtcNRKQ5jq4")
 
 # Función para preprocesar el texto del usuario
 def preprocess_text(text):
