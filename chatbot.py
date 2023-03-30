@@ -8,21 +8,16 @@ from tensorflow.keras.optimizers import legacy as legacy_optimizer
 from nltk.tokenize import word_tokenize
 from fuzzywuzzy import process , fuzz
 
- 
 
-
-
+lemmatizer = WordNetLemmatizer()
 nltk.download('punkt')
 nltk.download('wordnet')
-lemmatizer = WordNetLemmatizer()
-intents_file = open('ungs_dataset.json', encoding='utf8')
-intents_data = json.load(intents_file)
-
-
 words = []
 classes = []
 documents = []
 ignore_letters = ['!', '?', ',', '.']
+intents_file = open('ungs_dataset.json', encoding='utf8')
+intents_data = json.load(intents_file)
 
 for intents in intents_data['intents']:
     for patterns in intents['patterns']:
@@ -49,26 +44,9 @@ for document in documents:
     output_row[classes.index(document[1])] = 1
     training.append([bag, output_row])
 
-random.shuffle(training)
-training = np.array(training)
 
-train_x = list(training[:, 0])
-train_y = list(training[:, 1])
+model = load_model('universidad_chatbot_model.h5')
 
-model = Sequential()
-model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(len(train_y[0]), activation='softmax'))
-
-optimizer = legacy_optimizer.Adam(lr=0.0001, decay=1e-4)
-model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
-model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=5, verbose=1)
-
-model.save('universidad_chatbot_model.h5', save_format='h5')
-
-print('Modelo de chatbot de la universidad creado.')
 
 # Cargar el archivo con las preguntas y respuestas
 intents = json.load(open('ungs_dataset.json', encoding='utf-8'))
