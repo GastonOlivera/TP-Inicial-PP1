@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+nltk
+numpy
+tensorflow
+keras
+fuzzywuzzy

@@ -1,22 +1,19 @@
-import telebot , json , random , nltk , tempfile, io , requests
-import  speech_recognition as sr
+import telebot , json , random , nltk
 import numpy as np
 from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
 from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.layers import Dense, Dropout
 from keras.layers import LSTM
 from tensorflow.keras.optimizers import legacy as legacy_optimizer
 from nltk.tokenize import word_tokenize
 from fuzzywuzzy import process , fuzz
-from telebot import types
+
  
 
 
 
 nltk.download('punkt')
 nltk.download('wordnet')
-nltk.download('stopwords')
 lemmatizer = WordNetLemmatizer()
 intents_file = open('ungs_dataset.json', encoding='utf8')
 intents_data = json.load(intents_file)
@@ -65,7 +62,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-optimizer = legacy_optimizer.Adam(lr=0.001, decay=1e-6)
+optimizer = legacy_optimizer.Adam(lr=0.0001, decay=1e-4)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 model.fit(np.array(train_x), np.array(train_y), epochs=3000, batch_size=5, verbose=1)
 
@@ -151,7 +148,6 @@ def handle_message(message):
     response = get_response(prediction,text_predict)
     bot.reply_to(message, response)
     
-
 
 # Ejecutar el bot
 bot.polling()
