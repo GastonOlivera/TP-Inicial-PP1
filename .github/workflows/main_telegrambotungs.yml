@@ -41,6 +41,9 @@ jobs:
           path: |
             . 
             !venv/
+      - name: Start chatbot
+        run: python chatbot.py
+
 
   deploy:
     runs-on: ubuntu-latest
