@@ -61,4 +61,3 @@ jobs:
           app-name: 'TelegramBotUngs'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF2F1CAC2CF94A4AAB6F1346E2371E6E }}
-          script: python chatbot.py
