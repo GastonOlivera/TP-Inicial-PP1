@@ -54,11 +54,6 @@ jobs:
           name: python-app
           path: .
 
-      - name: Start chatbot
-        run: |
-         source venv/bin/activate
-         python chatbot.py
-
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
@@ -66,3 +61,6 @@ jobs:
           app-name: 'TelegramBotUngs'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF2F1CAC2CF94A4AAB6F1346E2371E6E }}
+     
+      - name: Start chatbot
+        run: python chatbot.py
