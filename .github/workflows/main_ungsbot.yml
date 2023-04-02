@@ -62,6 +62,3 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E4DF1C0C2B23490DA2ADD5DC99314F78 }}
 
-      - name: Start chatbot
-        run: python chatbot.py
-
