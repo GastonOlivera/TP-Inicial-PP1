@@ -61,6 +61,6 @@ jobs:
           app-name: 'ungsBot'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E4DF1C0C2B23490DA2ADD5DC99314F78 }}
-          startup-command: 'python chatbot.py'
+          post_deploy_script: python chatbot.py
 
 
