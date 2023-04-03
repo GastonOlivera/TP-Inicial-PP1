@@ -1,10 +1,8 @@
-import telebot , json , random , nltk
+import telebot , json , nltk
 import numpy as np
 from nltk.stem import WordNetLemmatizer
-from tensorflow.keras.models import Sequential, load_model
-from tensorflow.keras.layers import Dense, Dropout
+from tensorflow.keras.models import load_model
 from keras.layers import LSTM
-from tensorflow.keras.optimizers import legacy as legacy_optimizer
 from nltk.tokenize import word_tokenize
 from fuzzywuzzy import process , fuzz
 
